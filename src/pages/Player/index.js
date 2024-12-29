@@ -26,7 +26,7 @@ if(!video)return <NotFound/>
             <h1>Player</h1>
         </Titulo>
         <section className={styles.container}>
-        <iframe width="100%" height="100%" 
+        <iframe width="100%" height="10%" 
         src={video.link} 
         title={video.titulo} 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

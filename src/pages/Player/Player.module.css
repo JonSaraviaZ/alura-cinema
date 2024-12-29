@@ -7,3 +7,24 @@ iframe{
     justify-content: space-around;
     padding: 1rem 7%;
   }
+
+/*  ---- Responsividad ---- */
+
+@media screen and (max-width: 375px) {
+  iframe{
+    height: 50vh;
+    margin: 100px 0 760px 0;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    iframe{
+      height: 50vh;
+    }
+  }
+
+@media screen and (max-width: 768px){
+    iframe{
+        height: 50vh;
+      }
+}

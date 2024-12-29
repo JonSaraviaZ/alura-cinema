@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .pie h2 {
@@ -14,3 +13,22 @@
 h2 img {
     width: 50px;
 }
+
+/* ----Responsividad ----- */
+
+
+@media screen and (max-width: 375px) {
+    .pie{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .pie{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+  }

@@ -25,3 +25,14 @@ a{ text-decoration: none;}
     margin-left: 8px;
     font-size: 1.5rem;
 }
+
+/* ---------- responsividad ----------- */
+
+@media screen and (max-width: 425px) {
+    .cabecera {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+    }
+}
