@@ -10,3 +10,39 @@
     width: 100%;
     opacity: .5;
 }
+
+/* ----Responsividad ----- */
+
+
+@media screen and (max-width: 375px) {
+    .capa{
+    background-size: 100%;
+    height: 80px;
+    }
+    
+    .gradient {
+        height: 80px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .capa{
+    background-size: 120%;
+    height: 80px;
+    }
+    
+    .gradient {
+        height: 80px;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 768px) {
+    .capa{
+    background-size: 100%;
+    height: 100px;
+    }
+    
+    .gradient {
+        height: 100px;
+    }
+}

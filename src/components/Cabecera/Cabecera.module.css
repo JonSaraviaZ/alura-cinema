@@ -28,11 +28,24 @@ a{ text-decoration: none;}
 
 /* ---------- responsividad ----------- */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
     .cabecera {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap: 50px;
+        gap: 0px;
+        padding: 10px 5px 0;
+    }
+
+    .cabecera img {
+        height: 30px;
+        width: 50px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 425px) {
+    .cabecera {
+        gap: 0px;
+        padding: 10px 10px 0;
     }
 }

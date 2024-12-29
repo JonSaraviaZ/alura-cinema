@@ -20,7 +20,7 @@ const isDesktop = useMediaQuery({ query: "(min-width: 769px)" }); */
 
 @media (min-width: 0px) and (max-width: 425px) {
   html body{
-    min-width: fit-content;
+    min-width: 375px;
   }
 }
 
